@@ -1,0 +1,8 @@
+.canvas {
+    margin: 5px;
+    display: inline-flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    min-width: 5000px;
+    padding: 1rem;
+  }

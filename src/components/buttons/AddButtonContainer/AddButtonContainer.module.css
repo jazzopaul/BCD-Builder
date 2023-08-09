@@ -1,0 +1,15 @@
+.add_button_container {
+    position: absolute;
+    right: 0.3rem;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-self: flex-start;
+    height: 100%;
+    z-index: 999;
+}
+
+.add_button_container.active {
+    display: flex;
+}
+

@@ -1,0 +1,15 @@
+.modify_buttons_container {
+    position: absolute;
+    left: 0.3rem;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-self: flex-start;
+    height: 100%;
+    z-index: 999;
+    font-size: 0.8em;
+  }
+  
+  .modify_buttons_container.active {
+    display: flex;
+  }

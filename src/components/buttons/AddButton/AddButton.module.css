@@ -1,0 +1,16 @@
+.add_button {
+    background-color: #154c79;
+    color: #fff;
+  }
+
+.add_button.top_level {
+    margin-top: 0.6rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    font-size: large;
+  }
+
+  .add_button:hover {
+    background-color: #1888b8;
+    border: white;
+  }

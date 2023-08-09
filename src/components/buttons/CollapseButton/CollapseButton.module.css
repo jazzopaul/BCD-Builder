@@ -1,0 +1,10 @@
+.collapse_button {
+    background-color: #FEA82F;
+    cursor: pointer;
+  }
+  
+  .collapse_button:hover {
+    background-color: #F48F01;
+    border: white;
+    cursor: pointer;
+  }

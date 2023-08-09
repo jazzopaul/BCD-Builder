@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 80px;
+    border-radius: 1rem;
+    background-color: inherit;
+  }
+
+.header.level_3 {
+  padding: 0 13px;
+}
+
+.header.active.level_3 {
+  padding: 0 20px 0 45px;
+}
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 3px 0px;
+  }
+
+  .title.level_1 {
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .title.level_2 {
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .title.level_3 {
+    font-size: smaller;
+  }
+  
+  .title.active {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    color: black;
+  }
